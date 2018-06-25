@@ -21,6 +21,8 @@ public abstract class BaseDAO<T> implements DAO<T> {
 
     abstract PreparedStatement getInsertStatement(Connection con, T _new);
 
+    abstract PreparedStatement getDeleteStatement(Connection con, T deleteObject);
+
     @Override
     public List<T> findAll() {
         Connection con = null;
@@ -108,7 +110,7 @@ public abstract class BaseDAO<T> implements DAO<T> {
         return delete;
     }
 
-    protected abstract PreparedStatement getDeleteStatement(Connection con, T deleteObject);
+
 
     protected Date getDate(java.util.Date date) {
         return new Date(date.getTime());
