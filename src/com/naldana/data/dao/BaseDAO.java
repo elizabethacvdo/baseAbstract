@@ -4,6 +4,13 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+
+
+
+
+
+
+
 public abstract class BaseDAO<T> implements DAO<T> {
 
     protected TableData table;
@@ -109,8 +116,6 @@ public abstract class BaseDAO<T> implements DAO<T> {
         }
         return delete;
     }
-
-
 
     protected Date getDate(java.util.Date date) {
         return new Date(date.getTime());
