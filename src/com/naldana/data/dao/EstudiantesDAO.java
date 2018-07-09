@@ -1,6 +1,6 @@
 package com.naldana.data.dao;
 
-import com.naldana.data.entidades.Estudiante;
+import entidades.Estudiante;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

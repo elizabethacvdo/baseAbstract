@@ -1,4 +1,4 @@
-package com.naldana.data.entidades;
+package entidades;
 
 import java.util.ArrayList;
 import java.util.Date;

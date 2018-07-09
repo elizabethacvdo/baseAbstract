@@ -1,7 +1,7 @@
 package com.naldana;
 
 
-import com.naldana.data.entidades.Estudiante;
+import entidades.Estudiante;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 

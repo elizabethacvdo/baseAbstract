@@ -1,3 +1,5 @@
+create database est;
+
 create table estudiantes
 (
   `_id`            int auto_increment
